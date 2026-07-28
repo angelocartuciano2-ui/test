@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "HangmanModel",
+        "request": "launch",
+        "mainClass": "fr.quentincillierre.hangman/fr.quentincillierre.hangman.model.HangmanModel",
+        "projectName": "hang-man"
+    },
+    {
+        "type": "java",
+        "name": "MainApp",
+        "request": "launch",
+        "mainClass": "fr.quentincillierre.hangman/fr.quentincillierre.hangman.application.MainApp",
+        "projectName": "hang-man"
+    },
+    {
+        "name": "Run Hangman (Maven)",
+        "type": "java",
+        "request": "launch",
+        "mainClass": "fr.quentincillierre.hangman.application.MainApp",
+        "projectName": "hang-man",
+        "cwd": "${workspaceFolder}",
+        "vmArgs": [
+            "--module-path",
+            "${env:HOME}/.m2/repository/org/openjfx/javafx-sdk/21.0.6/lib",
+            "--add-modules",
+            "javafx.controls,javafx.fxml,javafx.media"
+        ]
+    }
+]
+}

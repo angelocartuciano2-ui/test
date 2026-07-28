@@ -1,0 +1,9 @@
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/Category.java
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/Difficulty.java
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/application/MainApp.java
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/controller/GameController.java
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/controller/MenuController.java
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/model/HangmanModel.java
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/model/WordRepository.java
+/home/oem/test/Angelo/hangman/src/main/java/fr/quentincillierre/hangman/util/SoundManager.java
+/home/oem/test/Angelo/hangman/src/main/java/module-info.java

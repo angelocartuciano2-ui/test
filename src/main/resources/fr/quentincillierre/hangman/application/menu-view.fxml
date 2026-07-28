@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="841.0" style="-fx-background-color: linear-gradient(to bottom, #09111f, #06223b);" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.quentincillierre.hangman.controller.MenuController">
+   <children>
+      <MediaView fx:id="backgroundImg" fitHeight="475.0" fitWidth="848.0" layoutY="-9.0" preserveRatio="false" />
+      <Label alignment="CENTER" layoutX="176.0" layoutY="21.0" prefHeight="56.0" prefWidth="400.0" style="-fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, #B2F1FF, #89B7FF, #E4FFFF); -fx-effect: dropshadow(gaussian, rgba(14, 74, 145, 0.8), 28, 0.7, 0, 0), glow(0.15); -fx-font-weight: bold; -fx-font-size: 34px;" text="HANGMAN GAME" textFill="#F6FBFF">
+         <font>
+            <Font name="Noto Naskh Arabic Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="117.0" prefHeight="36.0" prefWidth="226.0" style="-fx-background-color: linear-gradient(to bottom, #156a8f, #0d4f71); -fx-text-fill: #F6FBFF; -fx-background-radius: 10; -fx-border-color: rgba(246, 251, 255, 0.4); -fx-border-width: 1; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.45), 10, 0, 0, 0); -fx-font-weight: bold;" text="GAME CATEGORY:" textFill="#F6FBFF">
+         <font>
+            <Font name="DejaVu Serif Condensed Bold" size="18.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="catogoriesList" layoutX="354.0" layoutY="117.0" minWidth="170.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="190.0" style="-fx-background-color: linear-gradient(to bottom, rgba(2, 27, 51, 0.9), rgba(5, 42, 75, 0.95)); -fx-text-fill: #F6FBFF; -fx-font-weight: bold; -fx-border-color: #5AC8FF; -fx-border-width: 1; -fx-background-radius: 8; -fx-border-radius: 8;" text="Choose Category">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </MenuButton>
+      <Label layoutX="54.0" layoutY="241.0" prefHeight="36.0" prefWidth="145.0" style="-fx-background-color: linear-gradient(to bottom, #156a8f, #0d4f71); -fx-text-fill: #F6FBFF; -fx-background-radius: 10; -fx-border-color: rgba(246, 251, 255, 0.4); -fx-border-width: 1; -fx-border-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.45), 10, 0, 0, 0); -fx-font-weight: bold;" text="DIFFICUTY:" textFill="#F6FBFF">
+         <font>
+            <Font name="DejaVu Sans Mono Bold" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="easyRadio" layoutX="275.0" layoutY="246.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="87.0" style="-fx-text-fill: #B8E8FF; -fx-background-color: rgba(9, 17, 31, 0.55); -fx-background-radius: 8; -fx-border-color: rgba(184, 232, 255, 0.18); -fx-border-width: 1; -fx-border-radius: 8;" text="Easy">
+         <font>
+            <Font name="Liberation Serif Bold" size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="mediumRadio" layoutX="376.0" layoutY="246.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="102.0" style="-fx-text-fill: #B8E8FF; -fx-background-color: rgba(9, 17, 31, 0.55); -fx-background-radius: 8; -fx-border-color: rgba(184, 232, 255, 0.18); -fx-border-width: 1; -fx-border-radius: 8;" text="Medium">
+         <font>
+            <Font name="DejaVu Serif Bold" size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="hardRadio" layoutX="518.0" layoutY="246.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="87.0" style="-fx-text-fill: #B8E8FF; -fx-background-color: rgba(9, 17, 31, 0.55); -fx-background-radius: 8; -fx-border-color: rgba(184, 232, 255, 0.18); -fx-border-width: 1; -fx-border-radius: 8;" text="Hard">
+         <font>
+            <Font name="DejaVu Serif Condensed Bold" size="15.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="318.0" layoutY="335.0" mnemonicParsing="false" onAction="#launchGame" prefHeight="36.0" prefWidth="109.0" style="-fx-background-color: linear-gradient(to bottom, #156a8f, #0d4f71); -fx-text-fill: #F6FBFF; -fx-font-weight: bold; -fx-background-radius: 10;" text="PLAY" />
+      <Button layoutX="507.0" layoutY="335.0" mnemonicParsing="false" onAction="#exitApplication" prefHeight="36.0" prefWidth="109.0" style="-fx-background-color: linear-gradient(to bottom, #9f2f3f, #6f1c2a); -fx-text-fill: #F6FBFF; -fx-font-weight: bold; -fx-background-radius: 10;" text="QUIT" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,5 @@
+ELEPHANT|Largest land animal
+DOLPHIN|Intelligent marine mammal
+KANGAROO|Hops and carries young in a pouch
+TIGER
+fish|balbalaba
